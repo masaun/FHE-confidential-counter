@@ -1,3 +1,9 @@
+# FHE Confidential Counter
+
+<br>
+
+<hr>
+
 # FHEVM Hardhat Template
 
 A Hardhat-based template for developing Fully Homomorphic Encryption (FHE) enabled Solidity smart contracts using the
