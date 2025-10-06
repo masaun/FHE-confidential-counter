@@ -1,5 +1,9 @@
 "use client";
-import { useAppKitNetwork, useAppKitAccount, useAppKitProvider } from "@reown/appkit/react";
+import {
+  //useAppKitNetwork,
+  useAppKitAccount,
+  useAppKitProvider,
+} from "@reown/appkit/react";
 import { Contract, BrowserProvider } from "ethers";
 import type { Provider } from "@reown/appkit/react";
 
@@ -34,7 +38,7 @@ const storageABI = [
 
 export const SmartContractActionButtonList = () => {
   const { isConnected } = useAppKitAccount(); // AppKit hook to get the address and check if the user is connected
-  const { chainId: _chainId } = useAppKitNetwork();
+  //const { chainId } = useAppKitNetwork();
   const { walletProvider } = useAppKitProvider<Provider>("eip155");
 
   const storageSC = "0xEe6D291CC60d7CeD6627fA4cd8506912245c8cA4"; // @dev - Example SC on Sepolia (https://sepolia.etherscan.io/address/0xEe6D291CC60d7CeD6627fA4cd8506912245c8cA4#code)
