@@ -58,12 +58,13 @@ export const SmartContractActionButtonList = () => {
   };
 
   return (
-    isConnected &&
-    chainId === 11155111 && ( // Only show the buttons if the user is connected to Sepolia
+    isConnected && (
+      //chainId === 11155111 && ( // Only show the buttons if the user is connected to Sepolia
       <div>
         <button onClick={handleReadSmartContract}>Read Sepolia Smart Contract</button>
         <button onClick={handleWriteSmartContract}>Write Sepolia Smart Contract</button>
       </div>
+      //)
     )
   );
 };
