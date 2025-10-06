@@ -1,3 +1,11 @@
+# Frontend Repo for the FHE Confidential Counter
+
+- This repo is still in progress.
+
+<br>
+
+<hr>
+
 # Reown AppKit Example using ethers (next.js with App Router)
 
 This is a Next.js project.
