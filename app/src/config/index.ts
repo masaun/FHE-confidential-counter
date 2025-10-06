@@ -12,3 +12,11 @@ if (!projectId) {
 export const networks = [mainnet, sepolia, arbitrum] as [AppKitNetwork, ...AppKitNetwork[]];
 
 export const ethersAdapter = new EthersAdapter();
+
+// @dev - Create a metadata object - optional
+export const metadata = {
+  name: "FHE Confidential Counter",
+  description: "FHE Confidential Counter Example",
+  url: "https://reown.com", // origin must match your domain & subdomain
+  icons: ["https://avatars.githubusercontent.com/u/179229932"],
+};
