@@ -2,8 +2,6 @@ import { ConnectButton } from "@/components/ConnectButton";
 import { InfoList } from "@/components/InfoList";
 import { ActionButtonList } from "@/components/ActionButtonList";
 import { SmartContractActionButtonList } from "@/components/SmartContractActionButtonList";
-import { networks, projectId, metadata, ethersAdapter } from "@/config";
-import { useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
